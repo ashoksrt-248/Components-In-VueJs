@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Greet />
-    <Greet />
-    <Greet />
+    <Greet  msg="Ashok"   Age="33.8"/>
+    <Greet  msg="Devansh" Age="02.0"/>
+    <Greet  msg="Vedansh" Age="00.8"/>
     <Second />
     <Second />
   </div>
