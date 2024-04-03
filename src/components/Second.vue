@@ -1,9 +1,19 @@
 <template>
-    <h1>Second Component</h1>
+    <div>
+        <h1>Article Component</h1>
+        <h1>{{ title }}</h1>
+    </div>
 </template>
-<script>
 
+<script>
+    export default {
+        name:'Second',
+        props:{
+            title:String,
+        }
+    }
 </script>
-<style>
+
+<style scoped>
 
 </style>

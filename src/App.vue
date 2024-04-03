@@ -1,21 +1,26 @@
 <template>
   <div>
-    <Greet  msg="Ashok"   Age="33.8"/>
+    <Greet  msg="Ashok A" Age="33.8"/>
     <Greet  msg="Devansh" Age="02.0"/>
     <Greet  msg="Vedansh" Age="00.8"/>
-    <Second />
-    <Second />
+    <Second title="Amara"/>
+    <Second title="Honey"/>
   </div>
 </template>
 
 <script>
 import Greet from './components/Greet.vue';
-import Second from './components/Second.vue'
+import Second from './components/Second.vue';
 export default {
   name: 'App',
   components:{
     Greet,
     Second,
+  },
+  data(){
+    return{
+
+    }
   }
 }
 </script>
