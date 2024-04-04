@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Article Component</h1>
+        <h1>Second Component</h1>
         <h1>{{ title }}</h1>
     </div>
 </template>

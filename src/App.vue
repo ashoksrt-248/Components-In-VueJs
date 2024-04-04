@@ -3,7 +3,7 @@
     <Greet  msg="Ashok A" Age="33.8"/>
     <Greet  msg="Devansh" Age="02.0"/>
     <Greet  msg="Vedansh" Age="00.8"/>
-    <Second title="Amara"/>
+    <Second title="Kathyayani"/>
     <Second title="Honey"/>
   </div>
 </template>
